@@ -1,0 +1,21 @@
+*:focus {
+  outline: 0;
+}
+
+.itemBackground {
+  color: white;
+  background-color: white;
+}
+
+.links, .links:active, .links:hover, .links:focus {
+  color: white;
+  font-size: 15px;
+  outline: none;
+  text-decoration: none;
+}
+
+.MuiButton-text {
+  color: "white" !important;
+  /* border-radius: 150; */
+  font-size: 15px;
+}

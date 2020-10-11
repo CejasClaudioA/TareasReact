@@ -1,0 +1,8 @@
+body {
+  background-color: #fdfefe;
+  font-family: "Roboto";
+}
+
+.rounded {
+  border-radius: 8.25rem !important;
+}
