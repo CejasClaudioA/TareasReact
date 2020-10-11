@@ -18,9 +18,9 @@ export const Profile = () => {
 
 
     const [formValues, handleInputChange] = useForm({
-        name: 'claudio',
-        email: 'claudio_ceja009@hotmail.com',
-        password: '123456',
+        name: '',
+        email: '',
+        password: '',
     });
 
     const { name, email, password } = formValues
