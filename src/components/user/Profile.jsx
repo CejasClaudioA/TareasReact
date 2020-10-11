@@ -78,13 +78,13 @@ export const Profile = () => {
                                 </div>
 
                                 <div className="col-lg-12 mt-3">
-                                    <TextField value={name} id="name" type="text" onChange={handleInputChange} fullWidth={true} label="Nombre" name="name" variant="outlined" />
+                                    <TextField id="name" type="text" onChange={handleInputChange} fullWidth={true} label="Nombre" name="name" variant="outlined" />
                                 </div>
                                 <div className="col-lg-12 mt-3">
-                                    <TextField value={email} id="email" type="email" onChange={handleInputChange} fullWidth={true} label="Email" name="email" variant="outlined" />
+                                    <TextField id="email" type="email" onChange={handleInputChange} fullWidth={true} label="Email" name="email" variant="outlined" />
                                 </div>
                                 <div className="col-lg-12 mt-3">
-                                    <TextField value={password} id="password" type="password" onChange={handleInputChange} fullWidth={true} label="Clave" name="password" variant="outlined" />
+                                    <TextField id="password" type="password" onChange={handleInputChange} fullWidth={true} label="Clave" name="password" variant="outlined" />
                                 </div>
                                 <div className="text-center">
                                     <div className="row">
